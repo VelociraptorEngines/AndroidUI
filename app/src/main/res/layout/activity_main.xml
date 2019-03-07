@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLight"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rambla_bold"
+        android:text="@string/title"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="20sp"
+        android:layout_marginLeft="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rambla_bold"
+        />
+
+    <EditText
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:background="@drawable/edittext_border_color"
+        android:hint=" mm-dd-yyyy" />
+
+        <ImageView
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginTop="5sp"
+            android:layout_marginLeft="20sp"
+            android:src="@mipmap/datepicker"
+            />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Customer/Client *"
+        android:textSize="20sp"
+        android:layout_marginLeft="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rambla_bold"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:background="@drawable/edittext_border_color"
+        android:hint=""
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/customer"
+        android:textSize="10sp"
+        android:layout_marginLeft="20sp"
+        android:textStyle="bold"
+        android:textColor="#a0a0a0"
+        android:fontFamily="@font/rambla_bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Source Location *"
+        android:textSize="20sp"
+        android:layout_marginLeft="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rambla_bold"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:background="@drawable/edittext_border_color"
+        android:hint=""
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Destination Location *"
+        android:textSize="20sp"
+        android:layout_marginLeft="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rambla_bold"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:background="@drawable/edittext_border_color"
+        android:hint=""
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LR Number *"
+        android:textSize="20sp"
+        android:layout_marginLeft="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rambla_bold"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:background="@drawable/edittext_border_color"
+        android:hint=""
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vechile Number *"
+        android:textSize="20sp"
+        android:layout_marginLeft="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rambla_bold"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:background="@drawable/edittext_border_color"
+        android:hint=""
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Weight (MT) *"
+        android:textSize="20sp"
+        android:layout_marginLeft="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rambla_bold"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:background="@drawable/edittext_border_color"
+        android:hint=""
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Per MT Rate (If Applicable)"
+        android:textSize="20sp"
+        android:layout_marginLeft="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rambla_bold"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:background="@drawable/edittext_border_color"
+        android:hint=""
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vendor/Broker Name *"
+        android:textSize="20sp"
+        android:layout_marginLeft="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rambla_bold"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:background="@drawable/edittext_border_color"
+        android:hint=""
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Is he a new Vendor? *"
+        android:textSize="20sp"
+        android:layout_marginLeft="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rambla_bold"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:background="@drawable/edittext_border_color"
+        android:hint=""
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Procurement Cost - Rs[ To be paid to broker/vendor ] *"
+        android:textSize="20sp"
+        android:layout_marginLeft="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rambla_bold"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:background="@drawable/edittext_border_color"
+        android:hint="" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Advance Amount To be paid - Rs  *"
+            android:textSize="20sp"
+            android:layout_marginLeft="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/rambla_bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:background="@drawable/edittext_border_color"
+            android:hint="" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Customer's Invoice  *"
+            android:textSize="20sp"
+            android:layout_marginLeft="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/rambla_bold" />
+
+        <Button
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="5sp"
+            android:text="Browse Files"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_border"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LoRRY Reciept [lr] *"
+            android:textSize="20sp"
+            android:layout_marginLeft="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/rambla_bold" />
+
+        <Button
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="5sp"
+            android:text="Browse Files"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_border"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EWay bill *"
+            android:textSize="20sp"
+            android:layout_marginLeft="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/rambla_bold" />
+
+        <Button
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="5sp"
+            android:text="Browse Files"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_border"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transporter/SP Invoice"
+            android:textSize="20sp"
+            android:layout_marginLeft="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/rambla_bold" />
+
+        <Button
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="5sp"
+            android:text="Browse Files"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_border"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transporter/SP Cheque"
+            android:textSize="20sp"
+            android:layout_marginLeft="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/rambla_bold" />
+
+        <Button
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="5sp"
+            android:text="Browse Files"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_border"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transporter PAN Card"
+            android:textSize="20sp"
+            android:layout_marginLeft="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/rambla_bold" />
+
+        <Button
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="5sp"
+            android:text="Browse Files"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_border"
+            />
+
+        <Button
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80sp"
+            android:layout_gravity="center"
+            android:text="Submit"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_border"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ezyhaul.com"
+            android:textSize="10sp"
+
+            android:textAlignment="center"
+            android:textColor="#a0a0a0"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/rambla_bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/mailbox" />
+
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>
